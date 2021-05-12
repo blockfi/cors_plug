@@ -1,5 +1,5 @@
 defmodule CORSPlugTest do
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
   use Plug.Test
   import Plug.Conn, only: [get_resp_header: 2, put_req_header: 3]
 
